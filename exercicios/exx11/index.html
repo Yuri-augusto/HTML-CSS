@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>imagen dinamica</h1>
+    <p>abra esse site em varios dispositivos haha</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzir audio</h1>
+    <p>escuta ai namoral</p>
+    <audio src="midia/breakcore.mp3" controls ></audio>
+    <!--mp3 wav ogg-->
+<p>aqui e teste</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/breakcore.mp3" type="audio/mpeg">
+        <source src="midia/breakcore.ogg" type="audio/ogg">
+        <source src="midia/breakcore.wav" type="audio/wav">
+        <p>infelizmente seu navegador nao reproduz audio <a href="midia/breakcore.mp3"></a>clique aqui para baixar o mp3 </p>
+    </audio>
+</body>
+</html>
