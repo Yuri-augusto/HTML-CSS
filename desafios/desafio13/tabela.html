@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio1 de tabela</title>
+    <style>
+        table{
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            border-collapse: collapse;
+        }
+        table#notas{
+            width: 600px;
+        }
+        td{
+            border: 1px solid black;
+        }
+        th{
+            background-color: lightgray;
+            color: white;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>desafio 13 parte 1</h1>
+    <table>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="2">3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+        </tr>
+        <tr>
+            <td colspan="3">8</td>
+            <td>9</td>
+        </tr>
+        <tr>
+            <td rowspan="2">10</td>
+            <td colspan="2">11</td>
+            <td>12</td>
+        </tr>
+        <tr>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+        </tr>
+    </table>
+
+    <h2>Desafio 2</h2>
+
+    <table>
+        <tr>
+            <td colspan="4">a</td>
+            <td rowspan="4">b</td>
+        </tr>
+        <tr>
+            <td rowspan="4">c</td>
+            <td>d</td>
+            <td>e</td>
+            <td>f</td>
+        </tr>
+        <tr>
+            <td>g</td>
+            <td>h</td>
+            <td>i</td>
+        </tr>
+        <tr>
+            <td>j</td>
+            <td>l</td>
+            <td>m</td>
+        </tr>
+        <tr>
+            <td colspan="5">n</td>
+        </tr>
+    </table>
+
+    <H2>desafio parte 2</H2>
+
+    <table id="notas">
+        <thead>
+            <tr>
+                <td rowspan="2">Áreas</td>
+                <td rowspan="2">Diciplinas</td>
+                <td colspan="2">Notas</td>
+                <td rowspan="2">Médias</td>
+            </tr>
+            <tr>
+                <td>Notas 1</td>
+                <td>Notas 2</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr >
+                <td rowspan="4">Exatas</td>
+                <td>Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr> 
+            <th>
+                <tr>
+                    <td colspan="4">Médias de exatas</td>
+                    <td>0.0</td>
+                </tr>
+            </th>
+            <tr>
+                <td rowspan="2">Humanas</td>
+                <td>Hístoria</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <tr>
+                <td>Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <th>
+                <tr>
+                    <td colspan="4">Médias de humanas</td>
+                    <td>0.0</td>
+                </tr>
+            </th>
+        </tbody>
+    </table>
+</body>
+</html>
