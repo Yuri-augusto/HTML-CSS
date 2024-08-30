@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="est" id="iest">
+                <option value="SP">São paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="PE">Pernambuco</option>
+                <option value="RS">Rio Grande So Sul</option>
+                <option value="BH">Bahia</option>
+            </select>
+        </p>
+        <p>
+            <label for="itext">
+                <textarea name="text" id="itextt"></textarea>
+            </label>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
