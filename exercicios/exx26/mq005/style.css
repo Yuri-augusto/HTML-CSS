@@ -55,7 +55,7 @@ i#burge:hover{
 }
 
 main{
-    width: 90vw;
+    max-width: 90vw;
     background-color: white;
     margin: auto;
     padding: 10px;
